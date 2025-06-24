@@ -1,6 +1,6 @@
 ---
 site:
-  title: Showroom Template Demo
+  title: "Innovation Day 3"
   url: https://redhat-scholars.github.io/course-template
   start_page: modules::index.adoc
 
@@ -28,7 +28,7 @@ runtime:
 antora:
   extensions:
     - require: ./content/lib/dev-mode.js
-      enabled: true
+      enabled: false
 
 output:
   dir: ./www
