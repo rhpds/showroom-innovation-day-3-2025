@@ -1,44 +1,26 @@
-= Welcome to Innovation Day 3
+= Welcome to Q3 2025 Innovation Day
 
-Welcome! This lab is your hands-on introduction 
+This lab is a hands-on introduction to Retrieval Augmented Generation (RAG) in Python.
 
+RAG is a technique for enhancing the accuracy and reliability of generative AI models with facts fetched from external sources of knowledge to supplement the LLM’s internal representation of information.
 
-<content here>
+In this lab you will learn about LangChain, a framework for simplifying the development of AI applications by providing a standard way to chain together language models with external data sources and other components and tools. 
 
-== What You Will Learn in This Lab
+As you go through, you will also learn a little about how RAG works and the concepts behind it. 
 
-By the end of this session, you'll have a practical understanding of:
+The steps are:
 
-. *Getting Started with AI in Python:*
+1. Install dependencies
+2. Quick LangChain tutorial (optional)
+3. Download and transform data
+4. Generate embeddings and add to the Vector Store
+5. Build the RAG chain
+6. Query and test the RAG system
 
+== Getting Started
 
-.Your Lab Environment Overview
-[cols="1,2"]
-|===
-|Component |Details
-
-|Virtual Environment
-|`~/venv`, Python 3.12
-
-|Operating System
-|Red Hat Enterprise Linux (RHEL) 9.5, with NVIDIA drivers and CUDA toolkit installed. (CUDA is a parallel computing platform and programming model developed by NVIDIA for general computing on its own GPUs.)
-
-|GPU
-|NVIDIA L4 (24GB VRAM)
-
-|LLM Runtime (Development)
-|Ollama 
-(In production, you would typically use Red Hat OpenShift AI with a runtime like `vLLM`.)
-|===
-
-[TIP]
-====
-You can monitor your GPU's utilization at any time by typing the `nvtop` command in a terminal. 
-
-Your lab interface provides two terminals in the "Terminal Tab," but you can open additional terminals as needed directly within the JupyterLab interface.
-
-====
-
+Open the Jupyter Notebook `cloud-version-rag-lab-with-langchain.ipynb` in the JupyterLab interface by double clicking on it.
+The Jupyter Notebook will guide you through all the steps of building a RAG system using LangChain.
 
 [NOTE]
 ====
@@ -69,3 +51,10 @@ This combination makes Notebooks ideal for learning new concepts and testing ide
 
 ====
 
+[TIP]
+====
+You can monitor your GPU's utilization at any time by typing the `nvtop` command in a terminal. 
+
+Your lab interface provides two terminals in the "Terminal Tab," but you can open additional terminals as needed directly within the JupyterLab interface.
+
+====
