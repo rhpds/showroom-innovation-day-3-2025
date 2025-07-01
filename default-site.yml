@@ -1,7 +1,7 @@
 ---
 site:
   title: "Innovation Day 3"
-  url: https://redhat-scholars.github.io/course-template
+  url: https://source.redhat.com/groups/public/innovation_days#tab-q3-july-2025
   start_page: modules::index.adoc
 
 content:
